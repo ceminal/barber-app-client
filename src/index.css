@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  font-size: 90%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0a0a05;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-brand-gold: #f59e0b;
+  --color-brand-dark: #0a0a05;
+  --color-brand-card: rgba(26, 26, 15, 0.9);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+@keyframes subtle-zoom {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-subtle-zoom {
+  animation: subtle-zoom 20s ease-out forwards;
+}
