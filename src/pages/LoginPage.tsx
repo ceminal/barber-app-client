@@ -68,7 +68,7 @@ const LoginPage = () => {
                                 <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-2 ml-4">PHONE NUMBER</label>
                                 <input
                                     type="tel"
-                                    placeholder="+90 (5__) ___ __ __"
+                                    placeholder="phone number"
                                     value={phone}
                                     onChange={(e) => setPhone(e.target.value)}
                                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-brand-gold/50 focus:ring-1 focus:ring-brand-gold/20 transition-all text-sm hover:bg-white/10 text-white"
