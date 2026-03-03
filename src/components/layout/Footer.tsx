@@ -28,7 +28,7 @@ const Footer = () => (
             </div>
 
             <p className="text-gray-500 text-xs">
-                © 2023 Cutio. All rights reserved.
+                © 2026 Cutio. All rights reserved.
             </p>
         </div>
     </footer>
